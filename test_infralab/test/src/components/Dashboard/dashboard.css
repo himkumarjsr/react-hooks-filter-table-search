@@ -1,0 +1,68 @@
+.dashboardLayout{
+     /* display: flex; */ 
+     height: 100vh; 
+     background-color: #ffffff;
+}
+
+.sideNavLayout{ 
+    background-color: lightgray; 
+    width: 107%;
+}
+
+.sideBarLink{
+    color: #000000;
+    font-weight: bold;
+}
+
+.sideNavbar{ 
+    background-color: darkgrey;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    font-size: 10px; 
+}
+/* Zebra striping */ 
+tr:nth-of-type(odd) { 
+    background: #eee; 
+} 
+th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+} 
+td, th {
+     /* padding: 6px; */ 
+    border: 1px solid #ccc; 
+    text-align: left; 
+    word-wrap:break-word; 
+} 
+.filterOption{ 
+    display: flex; 
+    flex-direction: row; 
+}
+
+.filterOption select {
+    width: 20%; 
+    margin: 40px; 
+} 
+.filterOption input{ 
+    height: 30px; 
+    margin: 40px; 
+    width: 30%; 
+}
+ @media only screen and (max-width: 600px) { 
+    .filterOption{ 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .filterOption select { 
+        width: 100%; 
+        margin: 10px; 
+    } 
+    .filterOption input{ 
+        height: 30px; 
+        margin: 10px; 
+    } 
+} 
