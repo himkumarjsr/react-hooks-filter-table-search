@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-hooks-filter-table-search/test_infralab/test/static/css/main.779856b7.chunk.css",
+    "main.js": "/react-hooks-filter-table-search/test_infralab/test/static/js/main.d9d07435.chunk.js",
+    "main.js.map": "/react-hooks-filter-table-search/test_infralab/test/static/js/main.d9d07435.chunk.js.map",
+    "runtime-main.js": "/react-hooks-filter-table-search/test_infralab/test/static/js/runtime-main.0480ecee.js",
+    "runtime-main.js.map": "/react-hooks-filter-table-search/test_infralab/test/static/js/runtime-main.0480ecee.js.map",
+    "static/css/2.5a485693.chunk.css": "/react-hooks-filter-table-search/test_infralab/test/static/css/2.5a485693.chunk.css",
+    "static/js/2.515f69cb.chunk.js": "/react-hooks-filter-table-search/test_infralab/test/static/js/2.515f69cb.chunk.js",
+    "static/js/2.515f69cb.chunk.js.map": "/react-hooks-filter-table-search/test_infralab/test/static/js/2.515f69cb.chunk.js.map",
+    "index.html": "/react-hooks-filter-table-search/test_infralab/test/index.html",
+    "precache-manifest.bddc8c267c145da8015ae796f966cedb.js": "/react-hooks-filter-table-search/test_infralab/test/precache-manifest.bddc8c267c145da8015ae796f966cedb.js",
+    "service-worker.js": "/react-hooks-filter-table-search/test_infralab/test/service-worker.js",
+    "static/css/2.5a485693.chunk.css.map": "/react-hooks-filter-table-search/test_infralab/test/static/css/2.5a485693.chunk.css.map",
+    "static/css/main.779856b7.chunk.css.map": "/react-hooks-filter-table-search/test_infralab/test/static/css/main.779856b7.chunk.css.map",
+    "static/js/2.515f69cb.chunk.js.LICENSE.txt": "/react-hooks-filter-table-search/test_infralab/test/static/js/2.515f69cb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0480ecee.js",
+    "static/css/2.5a485693.chunk.css",
+    "static/js/2.515f69cb.chunk.js",
+    "static/css/main.779856b7.chunk.css",
+    "static/js/main.d9d07435.chunk.js"
+  ]
+}
