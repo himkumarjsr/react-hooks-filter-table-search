@@ -55,11 +55,11 @@ useEffect(( ) => {
     if(field === 'ifsc'){ 
         const playersField = players.filter(j => j.ifsc.toLowerCase().includes(search.toLowerCase()) );
         setPlayers(playersField); 
-    } else if(field === 'bank_branch'){ 
-        const playersField = players.filter(j => j.bank_branch.toLowerCase().includes(search.toLowerCase()) ); 
+    } else if(field === 'branch'){ 
+        const playersField = players.filter(j => j.branch.toLowerCase().includes(search.toLowerCase()) ); 
         setPlayers(playersField); 
-    } else if(field === 'branch_name'){ 
-        const playersField = players.filter(j => j.branch_name.toLowerCase().includes(search.toLowerCase()) ); 
+    } else if(field === 'bank_name'){ 
+        const playersField = players.filter(j => j.bank_name.toLowerCase().includes(search.toLowerCase()) ); 
         setPlayers(playersField); 
     } else if(field === 'address'){ 
         const playersField = players.filter(j => j.address.toLowerCase().includes(search.toLowerCase()) );
@@ -85,8 +85,8 @@ return (
                 <select value={field} onChange={handleFieldSelect}> 
                     <option value='' >Select search field</option> 
                     <option value='ifsc'>IFSC</option> 
-                    <option value='bank_branch'>Branch</option> 
-                    <option value='branch_name'>Branch Name</option> 
+                    <option value='branch'>Branch</option> 
+                    <option value='bank_name'>Branch Name</option> 
                     <option value='address'>Address</option> 
                     <option value='district'>DISTRICT</option> 
                 </select> 
